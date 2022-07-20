@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="Brambleton.CSS">
+        <title> Brambleton Golf Course | Feedback</title>
+    </head>
+
+    <header>
+        <h1> Brambleton Golf Course</h1> <hr>
+            <div class= "container">
+                <nav>
+                    <ul>
+                        <li> <a href = "Brambleton.html" > Home </a></li>
+                        <li> <a href = "BrambletonCourse.html" > The Course </a></li>
+                        <li> <a href = "BrambletonRates.html" > Rates </a></li>
+                        <li> <a href = "BrambletonFeedback.html" > Feedback </a></li>
+                    </ul>
+                 </nav>
+                </div>
+
+    </header>
+    <h3 style = "float: center;"><b><i>Customer Feeback Form</i></b></h3>
+    <body>
+        <form action = "results.html" name = "Survey" method = "GET"> 
+            First Name: <input type = "text" name = "firstname" required> <br>
+            Last Name: <input type = "text" name = "lastname" required> <br>
+            &nbsp &nbsp &nbsp &nbsp Email: <input type = "email" name = "email" required> <br><br>
+
+            <div>
+                How would you rate your overall experience: (1 Bad, 2 Decent, 3 Great)<br>
+                <input type = "radio" name = "exp" value = "1"> 1 <br>
+                <input type = "radio" name = "exp" value = "2"> 2 <br>
+                <input type = "radio" name = "exp" value = "3"> 3 <br> <br>
+            </div>
+
+            <div>
+                How would you rate the course conditions: (1 Bad, 2 Decent, 3 Great)<br>
+                <input type = "radio" name = "con" value = "1"> 1 <br>
+                <input type = "radio" name = "con" value = "2"> 2 <br>
+                <input type = "radio" name = "con" value = "3"> 3 <br> <br>
+            </div>
+
+            <div>
+                How would you rate the customer service: (1 Bad, 2 Decent, 3 Great)<br>
+                <input type = "radio" name = "ser" value = "1"> 1 <br>
+                <input type = "radio" name = "ser" value = "2"> 2 <br>
+                <input type = "radio" name = "ser" value = "3"> 3 <br> <br>
+            </div>
+
+            Comments: <br>
+            <input type = "text" name = "comments" class = "comment"> <br>
+            <button type = "submit"> Submit</button>
+        </form>
+    </body>
+</html>
