@@ -1,0 +1,26 @@
+body {
+    background-color: purple;
+  }
+  h1 {
+    text-align: center;
+    color: yellow;
+  }
+  
+  h4 {
+    background-color: purple;
+    text-align: center;
+    color: yellow;
+  }
+  .KobeImage {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  p {
+      text-align: center;
+      color: yellow;
+      background-color: black;
+  }
+  hr {
+      color: yellow;
+  }
